@@ -1,0 +1,1 @@
+val test : bool array -> string -> unit
