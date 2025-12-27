@@ -1,0 +1,3 @@
+(library
+ (name palindromeLib)
+ (modules dynamic))
