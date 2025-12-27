@@ -1,0 +1,3 @@
+(executable
+ (name median)
+ (libraries medianLib testLib))
