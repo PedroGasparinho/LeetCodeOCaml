@@ -1,6 +1,5 @@
 open TwoSumLib
 open TestLib
-open Printf
 
 let test_n a t f =
   let (i, j) = f a t in
@@ -20,5 +19,5 @@ let t f =
 
 let () =
   Test.test (t Basic.two_sum) "Two Sum (Basic)";
-  printf "\n";
+  print_endline "";
   Test.test (t Optimized.two_sum) "Two Sum (Optimized)"
