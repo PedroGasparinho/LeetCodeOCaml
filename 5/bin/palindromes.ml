@@ -21,3 +21,5 @@ let () =
   Test.test (t Dynamic.longest) "Dynamic Programming Palindrome";
   print_endline "";
   Test.test (t Expand.longest) "Expading Outwards Palindrome";
+  print_endline "";
+  Test.test (t Manacher.longest) "Manacher's Algorithm Palindrome";
