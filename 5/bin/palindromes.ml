@@ -1,21 +1,23 @@
 open PalindromeLib
 open TestLib
 
-let test_n s v =
-  let r = Dynamic.longest s in
-  r = v
+let test_n s l f =
+  let r = f s in
+  List.mem r l
 
-let test_1 =
-  test_n "babad" "aba"
+let test_1 f =
+  test_n "babad" ["aba"; "bab"] f
 
-let test_2 =
-  test_n "cbbd" "bb"
+let test_2 f =
+  test_n "cbbd" ["bb"] f
 
-let test_3 =
-  test_n "racecar" "racecar"
+let test_3 f =
+  test_n "racecar" ["racecar"] f
 
-let t = 
-  [|test_1; test_2; test_3|] 
+let t f = 
+  [|test_1 f; test_2 f; test_3 f|] 
 
 let () =
-  Test.test t "Dynamic Programming Palindrome";
+  Test.test (t Dynamic.longest) "Dynamic Programming Palindrome";
+  print_endline "";
+  Test.test (t Expand.longest) "Expading Outwards Palindrome";
