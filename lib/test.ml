@@ -19,8 +19,8 @@ let test t n =
   printf "%s:\n" n;
   let res = ref (0, 0) in
   for i = 0 to l - 1 do
-      let r = t.(i) in
-      update res r;
-      print_case r (i+1)
+    let r = t.(i) in
+    update res r;
+    print_case r (i+1)
   done;
   print_final !res

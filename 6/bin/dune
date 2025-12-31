@@ -1,0 +1,3 @@
+(executable
+ (name zigzag)
+ (libraries zigzagLib testLib))

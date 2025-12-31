@@ -21,4 +21,4 @@ let t =
   [|test_1; test_2; test_3; test_4|] 
 
 let () =
-  Test.test (t ) "Longest Substring w/o duplicates";
+  Test.test t "Longest Substring w/o duplicates";

@@ -16,5 +16,5 @@ let test_3 =
 let t = 
   [|test_1; test_2; test_3|] 
 
-let () = (*print_int (Array.length t)*)
+let () =
   Test.test t "Add Two Numbers"

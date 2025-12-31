@@ -1,0 +1,3 @@
+(library
+ (name zigzagLib)
+ (modules basic))
