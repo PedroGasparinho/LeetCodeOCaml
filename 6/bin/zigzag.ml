@@ -28,8 +28,11 @@ let test_6 =
 let test_7 =
   test_n "abcd" 3 "abdc"
 
+let test_8 =
+  test_n "abcd" 5 "abcd"
+
 let t = 
-  [|test_1; test_2; test_3; test_4; test_5; test_6; test_7|] 
+  [|test_1; test_2; test_3; test_4; test_5; test_6; test_7; test_8|] 
 
 let () =
   Test.test t "Longest Substring w/o duplicates";

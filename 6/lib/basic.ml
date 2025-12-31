@@ -1,17 +1,19 @@
-  open String
+open String
 
-  let updateIndex i r rows b =
-    let max = if rows > 2 then rows + (rows - 2) else rows in
-    if r = 0 || r = rows - 1 then
-      i := !i + max
-    else if b then
-      i := !i + max - 2*r
-    else
-      i := !i + 2*r
+let updateIndex i r rows b =
+  let max = if rows > 2 then rows + (rows - 2) else rows in
+  if r = 0 || r = rows - 1 then
+    i := !i + max
+  else if b then
+    i := !i + max - 2*r
+  else
+    i := !i + 2*r
 
-  let zigzag s rows =
+let zigzag s rows =
+  if length s <= 1 || rows >= length s then 
+    s
+  else 
     let s' = Array.make (length s) '?' and c = ref 0 in
-
     for r = 0 to rows - 1 do 
       let i = ref r in
       let b = ref true in
