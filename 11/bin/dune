@@ -1,0 +1,3 @@
+(executable
+ (name waterContainer)
+ (libraries waterContainerLib testLib))
