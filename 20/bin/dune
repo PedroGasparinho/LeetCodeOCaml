@@ -1,0 +1,3 @@
+(executable
+ (name validParenthesis)
+ (libraries validParenthesisLib testLib))
