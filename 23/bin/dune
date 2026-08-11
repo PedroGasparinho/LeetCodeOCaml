@@ -1,0 +1,3 @@
+(executable
+ (name mergeKSortedLists)
+ (libraries mergeKSortedListsLib testLib))
