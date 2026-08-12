@@ -1,4 +1,4 @@
 (library
- (name testLib)
- (public_name testLib)
- (modules test))
+ (name utilsLib)
+ (public_name utilsLib)
+ (modules test llist))

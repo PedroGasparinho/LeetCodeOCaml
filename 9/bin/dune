@@ -1,3 +1,3 @@
 (executable
  (name paliNum)
- (libraries paliNumLib testLib))
+ (libraries paliNumLib utilsLib))

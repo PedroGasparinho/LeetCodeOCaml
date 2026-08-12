@@ -1,5 +1,5 @@
 open SubstringLib
-open TestLib
+open UtilsLib
 
 let test_n s v =
   let r = Basic.longestSubstring s in

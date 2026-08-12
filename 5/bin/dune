@@ -1,3 +1,3 @@
 (executable
  (name palindromes)
- (libraries palindromeLib testLib))
+ (libraries palindromeLib utilsLib))

@@ -1,5 +1,5 @@
 open PalindromeLib
-open TestLib
+open UtilsLib
 
 let test_n s l f =
   let r = f s in

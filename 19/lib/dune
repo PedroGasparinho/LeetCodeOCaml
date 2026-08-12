@@ -1,3 +1,4 @@
 (library
  (name rmNthEndNodeLib)
- (modules basic))
+ (modules basic imp)
+ (libraries utilsLib))

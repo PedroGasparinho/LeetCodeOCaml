@@ -1,5 +1,5 @@
 open PaliNumLib
-open TestLib
+open UtilsLib
 
 let test_n n = Basic.main n
 

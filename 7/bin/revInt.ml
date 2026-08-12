@@ -1,5 +1,5 @@
 open RevIntLib
-open TestLib
+open UtilsLib
 
 let test_n x v =
   let r = Basic.revInt x in

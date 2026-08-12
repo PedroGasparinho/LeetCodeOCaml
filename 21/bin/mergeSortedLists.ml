@@ -1,5 +1,5 @@
 open MergeSortedListsLib
-open TestLib
+open UtilsLib
 
 let test_n l1 l2 r = 
   let l' = Basic.main l1 l2 in

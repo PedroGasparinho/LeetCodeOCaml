@@ -1,5 +1,5 @@
 open AddTwoNumbersLib
-open TestLib
+open UtilsLib
 
 let test_n l1 l2 e =
   List.equal (=) e (Basic.addTwoNumbers l1 l2)

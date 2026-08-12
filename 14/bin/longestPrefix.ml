@@ -1,5 +1,5 @@
 open LongestPrefixLib
-open TestLib
+open UtilsLib
 
 let test_n a r = 
   let p = Basic.main a in

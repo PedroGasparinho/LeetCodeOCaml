@@ -1,5 +1,5 @@
 open ZigzagLib
-open TestLib
+open UtilsLib
 
 let test_n s rows v =
   let r = Basic.zigzag s rows in

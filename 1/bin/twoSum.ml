@@ -1,5 +1,5 @@
 open TwoSumLib
-open TestLib
+open UtilsLib
 
 let test_n a t f =
   let (i, j) = f a t in
