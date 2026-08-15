@@ -1,0 +1,3 @@
+(library
+ (name remDupsSortedLib)
+ (modules basic imp))
