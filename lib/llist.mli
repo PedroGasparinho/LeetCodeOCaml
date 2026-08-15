@@ -4,7 +4,7 @@ type 'a node = {
 }
 
 type 'a llist = {
-  head: ('a node) option
+  mutable head: ('a node) option
 }
 
 val from_list : 'a list -> 'a llist
